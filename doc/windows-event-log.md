@@ -6,6 +6,14 @@ Windows Event Log, Windows işletim sisteminde gerçekleşen olayların kayıt a
 
 Projede özellikle güvenlik olaylarının bulunduğu **Security Log** üzerinde çalışılması planlanmaktadır.
 
+## Windows Event Log Yapısı
+
+Windows Event Log içerisinde farklı log kategorileri bulunmaktadır. Bunlar arasında **Application**, **System** ve **Security** logları yer almaktadır.
+
+Proje açısından özellikle **Security Log** önemlidir çünkü kullanıcı oturum açma gibi güvenlikle ilgili olaylar burada tutulmaktadır.
+
+Event kayıtlarında olayın ne zaman gerçekleştiği, Event ID'si ve olayla ilgili çeşitli bilgiler bulunabilir. Projede ihtiyaç duyulan alanların bu kayıtlardan çıkarılması planlanmaktadır.
+
 ## Security Log
 
 Security Log içerisinde kullanıcı girişleri, başarısız giriş denemeleri ve hesaplarla ilgili çeşitli güvenlik olayları tutulmaktadır.
